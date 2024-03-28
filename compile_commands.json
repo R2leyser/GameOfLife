@@ -1,0 +1,24 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-g",
+      "-O1",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-parameter",
+      "-pedantic-errors",
+      "-std=c99",
+      "-Wno-missing-braces",
+      "-I",
+      "include/",
+      "-o",
+      "gameOfLife",
+      "main.c"
+    ],
+    "directory": "/home/r2leyser/Coding/gameOfLife",
+    "file": "/home/r2leyser/Coding/gameOfLife/main.c",
+    "output": "/home/r2leyser/Coding/gameOfLife/gameOfLife"
+  }
+]
