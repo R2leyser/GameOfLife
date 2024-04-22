@@ -4,6 +4,8 @@
 
 Implementação do jogo da vida em C usando a biblioteca Raylib.
 
+![Screenshot](gameoflife.png)
+
 ## Como compilar
 
 Instale a biblioteca Raylib no seu sistema operacional e use make para compilar o código.

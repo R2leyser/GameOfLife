@@ -36,8 +36,8 @@ void printGrid(int* grid){
 
 // Function to draw a cell on the screen
 void drawCell(int cellX, int cellY, Color color) {
-    int cellWidth = ceil((float)GetScreenWidth() / GRID_WIDTH);
-    int cellHeight = ceil((float)GetScreenHeight() / GRID_HEIGHT);
+    int cellWidth = ceil(SCREEN_WIDTH / GRID_WIDTH)   ;
+    int cellHeight = ceil(SCREEN_HEIGHT / GRID_HEIGHT);
     DrawRectangle(cellX * cellWidth, cellY * cellHeight, cellWidth, cellHeight, color);
 }
 
